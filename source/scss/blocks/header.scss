@@ -1,0 +1,61 @@
+.header__wrapper {
+  height: 120px;
+  margin: 25px 160px 15px;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header__item {
+  font-size: 14px;
+  text-align: center;
+}
+.item_left {
+  text-align: left;
+}
+.item_right {
+  text-align: right;
+}
+.item__call {
+  display: block;
+  height: 24px;
+  padding-left: 35px;
+  background-image: url(/img/call_icon.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  text-decoration-style: dashed;
+  color: #62ae00;
+  text-transform: uppercase;
+  line-height: 2.5em;
+}
+.item__office {
+  color: #60675f;
+  line-height: 1.5em;
+  margin: 18px 0;
+}
+.item__type {
+  color: #202322;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.item__name {
+  color: #202322;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.item__phone {
+  color: #62ae00;
+  text-decoration: none;
+}
+.item__phone_mod {
+  max-height: max-content;
+  color: #2d312d;
+  font-size: 22px;
+}
+.item__time {
+  color: #60675f;
+  margin: 10px 0 0 0;
+}
