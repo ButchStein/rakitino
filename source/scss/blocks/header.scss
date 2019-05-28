@@ -1,11 +1,57 @@
 .header__wrapper {
-  height: 120px;
   margin: 25px 160px 15px;
 }
 .header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+.header__form {
+  position: absolute;
+  z-index: 99999;
+  width: 280px;
+  height: 420px;
+  border-radius: 5px;
+  background-color: #62af01;
+  top: 65px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+.header__form-input-name {
+  display: block;
+  color: #fff;
+  margin: 15px 0 10px;
+}
+.header__form-select {
+  background-image: url(/img/corner.png);
+  background-repeat: no-repeat;
+  background-position: 190px 13px;
+  cursor: pointer;
+}
+.header__form-button {
+  width: 220px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.form__input_mod {
+  width: 220px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding-left: 15px;
+  background-color: #fff;
+  margin: 0 auto;
 }
 .header__item {
   font-size: 14px;
@@ -24,6 +70,7 @@
   background-image: url(/img/call_icon.png);
   background-position: 0 50%;
   background-repeat: no-repeat;
+  text-decoration: underline;
   text-decoration-style: dashed;
   color: #62ae00;
   text-transform: uppercase;
@@ -31,8 +78,8 @@
 }
 .item__office {
   color: #60675f;
-  line-height: 1.5em;
-  margin: 18px 0;
+  line-height: 1.4em;
+  margin: 17px 0;
 }
 .item__type {
   color: #202322;
@@ -54,6 +101,8 @@
   max-height: max-content;
   color: #2d312d;
   font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2em;
 }
 .item__time {
   color: #60675f;

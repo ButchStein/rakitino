@@ -1,4 +1,41 @@
-body{
-    font-family: 'liberationserif-regular';
-    font-size: 100%;
+body {
+  font-family: "liberationserif-regular";
+  font-size: 14px;
+  color: #202322;
+}
+@font-face {
+  font-family: "liberationserif-regular";
+  src: url("../fonts/liberationserif-regular.eot");
+  src: url("../fonts/liberationserif-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/liberationserif-regular.woff") format("woff"),
+    url("../fonts/liberationserif-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "liberationserif-bold";
+  src: url("../fonts/liberationserif-bold.eot");
+  src: url("../fonts/liberationserif-bold.eot?iefix") format("embedded-opentype"),
+    url("../fonts/liberationserif-bold.woff") format("woff"),
+    url("../fonts/liberationserif-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../fonts/liberationserif-bolditalic";
+  src: url("../fonts/liberationserif-bolditalic.eot");
+  src: url("../fonts/liberationserif-bolditalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/liberationserif-bolditalic.woff") format("woff"),
+    url("../fonts/liberationserif-bolditalic.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "liberationserif-italic";
+  src: url("../fonts/liberationserif-italic.eot");
+  src: url("../fonts/liberationserif-italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/liberationserif-italic.woff") format("woff"),
+    url("../fonts/liberationserif-italic.ttf") format("truetype");
+  font-weight: normal;
 }

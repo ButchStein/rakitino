@@ -1,0 +1,65 @@
+.section-five__name {
+  font-size: 42px;
+  font-weight: normal;
+  color: #202322;
+  text-align: center;
+  margin: 85px 0 70px 0;
+}
+.section-five__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 160px;
+}
+.section-five__block {
+  width: 29.1666%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+.section-five__block-icon {
+  max-width: 100%;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 40% center;
+}
+.section-five__block-icon_1 {
+  background-image: url(/img/block5_icon_1.png);
+}
+.section-five__block-icon_2 {
+  background-image: url(/img/block5_icon_2.png);
+}
+.section-five__block-icon_3 {
+  background-image: url(/img/block5_icon_3.png);
+}
+.section-five__block-icon_4 {
+  background-image: url(/img/block5_icon_4.png);
+}
+.section-five__block-icon_5 {
+  background-image: url(/img/block5_icon_5.png);
+}
+.section-five__block-icon_6 {
+  background-image: url(/img/block5_icon_6.png);
+}
+.section-five__block-text {
+  font-size: 24px;
+  font-weight: normal;
+  color: #121413;
+  margin: 30px 0 60px 0;
+}
+.section-five__send-order {
+  display: block;
+  max-width: 330px;
+  height: 60px;
+  background-image: url(/img/btn_green.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5em;
+  margin: 8px auto 60px;
+
+}

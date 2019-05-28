@@ -1,0 +1,25 @@
+.section-six__image {
+  width: 100%;
+  height: 480px;
+  background-image: url(/img/foto_compressed.jpg);
+  background-position: center 57%;
+  background-size: cover;
+}
+.section-six__name {
+  font-size: 42px;
+  font-weight: normal;
+  text-align: center;
+  margin: 70px 0 60px;
+}
+
+.section-six__text {
+  font-size: 14px;
+  text-align: center;
+}
+.section-six__map {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/map.jpg);
+  background-size: cover;
+  margin: 60px 0 0 0;
+}
