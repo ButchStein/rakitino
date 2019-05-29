@@ -43,6 +43,10 @@
   text-align: center;
   margin-bottom: 30px;
   cursor: pointer;
+  transition: background-color 0.5s ease-in;
+}
+.header__form-button:hover {
+  background-color: #509004;
 }
 .form__input_mod {
   width: 220px;
@@ -75,6 +79,12 @@
   color: #62ae00;
   text-transform: uppercase;
   line-height: 2.5em;
+  transition: background-image,color,text-decoration-style 1s ease-out;
+}
+.item__call:hover{
+  background-image: url(/img/call_icon_hov.png);
+  color: #509004;
+  text-decoration-style: solid;
 }
 .item__office {
   color: #60675f;

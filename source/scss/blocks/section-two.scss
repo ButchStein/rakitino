@@ -59,15 +59,20 @@
   font-size: 14px;
   line-height: 1.4em;
 }
-.section-two__send-order{
-    display: block;
-    width: 330px;
-    height: 60px;
-    font-size: 24px;
-    color: #fff;
-    background-image: url(/img/btn_green.png);
-    text-align: center;
-    text-decoration: none;
-    line-height: 2.4em;
-    margin: 46px auto 60px;
+.section-two__send-order {
+  display: block;
+  width: 330px;
+  height: 60px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #62b500;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.4em;
+  margin: 46px auto 60px;
+  transition: background-color 0.5s ease-in;
+}
+.section-two__send-order:hover {
+  background-color: #509004;
 }

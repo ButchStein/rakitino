@@ -52,8 +52,8 @@
   display: block;
   max-width: 330px;
   height: 60px;
-  background-image: url(/img/btn_green.png);
-  background-repeat: no-repeat;
+  background-color: #62b500;
+  border-radius: 5px;
   color: #fff;
   font-size: 24px;
   font-weight: normal;
@@ -61,5 +61,8 @@
   text-decoration: none;
   line-height: 2.5em;
   margin: 8px auto 60px;
-
+  transition: background-color 0.5s ease-in;
+}
+.section-five__send-order:hover {
+  background-color: #509004;
 }

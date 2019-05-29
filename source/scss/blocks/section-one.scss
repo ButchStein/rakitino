@@ -50,6 +50,10 @@
   position: absolute;
   left: 230px;
   top: 40px;
+  transition: background-image 0.5s ease-in;
+}
+.section-one__block-link_geo:hover {
+  background-image: url(/img/geo_icon_hov.png);
 }
 .section-one__block-image {
   width: 100%;
@@ -80,6 +84,10 @@
   position: absolute;
   top: 15px;
   left: 10px;
+  transition: background-image 0.5s ease-in;
+}
+.section-one__block-link_plus:hover {
+  background-image: url(/img/plus_icon_hov.png);
 }
 .section-one__block-slogan_mod {
   padding: 0 0 0 90px;

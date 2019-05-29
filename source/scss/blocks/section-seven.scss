@@ -15,11 +15,6 @@
   justify-content: space-between;
   margin: 0 160px;
 }
-
-// .section-seven__form-input {
-//   width: 280px;
-//   height: 60px;
-// }
 .section-seven__form-input-name {
   display: block;
   color: #202322;
@@ -35,8 +30,9 @@
   display: block;
   width: 330px;
   height: 60px;
-  background-image: url(/img/btn_green.png);
-  background-repeat: no-repeat;
+  background-color: #62b500;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in;
   color: #fff;
   font-size: 24px;
   font-weight: normal;
@@ -46,6 +42,9 @@
   cursor: pointer;
   margin: 60px auto;
   position: relative;
+}
+.section-seven__form-button:hover {
+  background-color: #509004;
 }
 .section-seven__button {
   position: absolute;
@@ -60,4 +59,9 @@
   padding: 58px 0 0 2px;
   bottom: 62px;
   right: 60px;
+  cursor: pointer;
+  transition: background-image 0.5s ease-in;
+}
+.section-seven__button:hover {
+  background-image: url(/img/up_icon_hov.png);
 }
