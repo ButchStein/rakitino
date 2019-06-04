@@ -28,7 +28,7 @@
   margin: 15px 0 10px;
 }
 .header__form-select {
-  background-image: url(/img/corner.png);
+  background-image: url(../img/corner.png);
   background-repeat: no-repeat;
   background-position: 190px 13px;
   cursor: pointer;
@@ -71,7 +71,7 @@
   display: block;
   height: 24px;
   padding-left: 35px;
-  background-image: url(/img/call_icon.png);
+  background-image: url(../img/call_icon.png);
   background-position: 0 50%;
   background-repeat: no-repeat;
   text-decoration: underline;
@@ -82,7 +82,7 @@
   transition: background-image,color,text-decoration-style 1s ease-out;
 }
 .item__call:hover{
-  background-image: url(/img/call_icon_hov.png);
+  background-image: url(../img/call_icon_hov.png);
   color: #509004;
   text-decoration-style: solid;
 }
